@@ -210,6 +210,7 @@
     <th>Weather</th>
     <th>Mood</th>
     <th>lesson</th>
+    <th>content</th>
     <th>Regdate</th>
     <th>Edit</th>
     <th>Delete</th>
@@ -222,6 +223,7 @@
         <td>${u.weather}</td>
         <td>${u.mood}</td>
         <td>${u.lesson}</td>
+        <td>${u.content}</td>
         <td>${u.regdate}</td>
         <td><a href="editform/${u.id}">Edit</a></td>
         <td><a href="javascript:delete_ok('${u.id}')">Delete</a></td>

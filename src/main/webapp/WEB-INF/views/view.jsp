@@ -116,7 +116,6 @@
 <h1>View Page</h1>
 
 <table>
-    <tr><td>Regdate:</td><td>${u.regdate}</td></tr>
     <tr><td>일기 제목:</td><td>${u.title}</td></tr>
     <tr><td>오늘의 기분:</td><td>${u.mood}</td></tr>
     <tr><td>오늘의 날씨:</td><td>${u.weather}</td></tr>

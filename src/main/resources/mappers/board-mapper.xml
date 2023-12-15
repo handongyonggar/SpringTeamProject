@@ -9,9 +9,7 @@
         (#{title} , #{mood} , #{weather} , #{lesson}, #{content})
     </insert>
     <update id="updateBoard">
-        update DIARY
-        set title=#{title}, mood=#{mood}, weather=#{weather}, lesson=#{lesson}, content=#{content}
-        where id=#{id}
+        update DIARY set title=#{title}, mood=#{mood}, weather=#{weather}, lesson=#{lesson}, content=#{content} where id=#{id}
     </update>
     <delete id="deleteBoard">
         delete from DIARY where id=#{id}

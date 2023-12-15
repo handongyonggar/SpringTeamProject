@@ -10,7 +10,7 @@
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
 	<title>일기 수정</title>
 	<style>
 	</style>
@@ -18,7 +18,7 @@
 <body>
 <h1>일기 수정</h1>
 <form action="../editok" method="POST">
-	<input type="hidden" name="seq" value="${u.id}"/>
+	<input type="hidden" name="id" value="${u.id}"/>
 	<table id="edit">
 		<tr><td>일기 제목:</td><td><input type="text" name="title" value="${u.title}"/></td></tr>
 		<tr><td>오늘의 기분:</td><td><input type="text" name="mood" value="${u.mood}" /></td></tr>
