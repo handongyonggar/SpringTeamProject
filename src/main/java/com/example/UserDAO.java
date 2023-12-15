@@ -1,4 +1,4 @@
-package com.example.user;
+package com.example;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,3 +12,4 @@ public class UserDAO {
         return sqlSession.selectOne("User.getUser", vo);
     }
 }
+
